@@ -29,7 +29,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   # albo mozemy uruchomic w taki sposob:
   PYTHONPATH=. FLASK_APP=hello_world flask run
   ```
-  
+
   ```bash
   # w przegladarce lub za pomoca curl
   curl 127.0.0.1:5000/
@@ -49,15 +49,15 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
      # deaktywacja
      deactivate
      ```
-     
-  - Aktywacja, jeśli wracamy do projektu gdzie jest już środowisko wirtalne
-  
+
+  - Aktywacja, jeśli wracamy do projektu gdzie jest już środowisko wirtualne
+
     ```bash
     # spradzenie czy widzimy katalog (.venv)
     # gdzie jest wirtualne srodowisko
     ls -a
 
-    # aktywacja 
+    # aktywacja
     source .venv/bin/activate
     ```
 
