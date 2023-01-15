@@ -19,6 +19,10 @@ jobs:
       # testy!!!!!
       - name: Tests
         run: make test
+      - name: Build Image
+        run: make docker_build
+      - name: Run Docker
+        run: make docker_run
 
   docker:
     runs-on: ubuntu-latest
